@@ -1,0 +1,43 @@
+table img {
+    width: 100px;
+    height: 100px;
+}
+
+.bg-register-image{
+    
+    background-image:  url("../img/Chicago_-_Flag_Label_grande.webp");
+    filter: grayscale();
+}
+
+.bg-login-image {
+    background-image:  url("../img/Chicago_-_Flag_Label_grande.webp");
+    filter : grayscale();
+    left: 10px;
+}
+
+input[type="text"]:valid, input[type="email"]:valid, input[type="url"]:valid {
+color:green;
+border-color:#4e73df;
+}
+
+input[type="text"]:focus:invalid, input[type="email"]:focus:invalid, input[type="url"]:focus:invalid {
+color:rgb(231, 74, 59);
+border: 1px solid rgb(231, 74, 59);
+outline: 0;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6e707e;
+    background-color: #fff;
+    background-clip: padding-box;
+    
+    border-radius: .35rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
